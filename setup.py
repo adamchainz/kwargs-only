@@ -34,6 +34,7 @@ setup(
     py_modules=['kwargs_only'],
     include_package_data=True,
     install_requires=[],
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     license='ISC License',
     zip_safe=False,
     keywords='kwargs',
