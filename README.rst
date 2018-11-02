@@ -39,7 +39,7 @@ Use **pip**:
 
     pip install kwargs-only
 
-Tested on Python 2.7 and Python 3.6.
+Tested on Python 2.7 and Python 3.7.
 
 Usage
 =====
