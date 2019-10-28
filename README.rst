@@ -8,6 +8,9 @@ kwargs-only
 .. image:: https://img.shields.io/pypi/v/kwargs-only.svg
         :target: https://pypi.python.org/pypi/kwargs-only
 
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/python/black
+
 A decorator to make a function accept keyword arguments only, on both Python 2
 and 3.
 
@@ -39,7 +42,7 @@ Use **pip**:
 
     pip install kwargs-only
 
-Tested on Python 2.7 and Python 3.7.
+Python 2.7 and 3.4-3.7 supported.
 
 Usage
 =====
