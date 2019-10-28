@@ -8,6 +8,9 @@ Pending Release
 
 .. Insert new release notes below this line
 
+1.0.2 (2019-10-28)
+------------------
+
 * Update PyPI development status as active. This package is maintained again
   since I have started using it on a Python 2 compatible project :)
 

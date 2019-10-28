@@ -4,7 +4,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import inspect
 from functools import wraps
 
-__version__ = '1.0.1'
+__version__ = '1.0.2'
 
 
 def kwargs_only(func):
