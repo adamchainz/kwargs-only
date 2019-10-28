@@ -8,18 +8,10 @@ kwargs-only
 .. image:: https://img.shields.io/pypi/v/kwargs-only.svg
         :target: https://pypi.python.org/pypi/kwargs-only
 
-----
-
-**Unmaintained:** I'm no longer maintaining this package because it's for
-Python 2 compatibility and all other projects I've used it on are now Python 3
-only. If you want to continue maintenance please contact me.
-
-----
-
 A decorator to make a function accept keyword arguments only, on both Python 2
 and 3.
 
-If you are only using Python 3, you don't need this, you can just do:
+If you are using only Python 3, you don't need this, you can just do:
 
 .. code-block:: python
 
