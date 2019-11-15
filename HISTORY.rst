@@ -1,10 +1,8 @@
 History
 =======
 
-Pending Release
----------------
-
-.. Insert new release notes below this line
+1.1.0 (2019-11-15)
+------------------
 
 * Support Python 3.8.
 
