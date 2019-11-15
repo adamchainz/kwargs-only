@@ -1,7 +1,5 @@
-.. :changelog:
-
 History
--------
+=======
 
 Pending Release
 ---------------

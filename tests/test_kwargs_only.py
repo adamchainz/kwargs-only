@@ -8,7 +8,6 @@ from kwargs_only import kwargs_only
 
 
 def test_kwargs_only_allows_keyword_args():
-
     @kwargs_only
     def foo(x, y):
         return (x, y)
@@ -17,7 +16,6 @@ def test_kwargs_only_allows_keyword_args():
 
 
 def test_kwargs_only_does_not_allow_positional_args():
-
     @kwargs_only
     def foo(x):
         pass
@@ -28,7 +26,6 @@ def test_kwargs_only_does_not_allow_positional_args():
 
 
 def test_kwargs_only_method_allows_keyword_args():
-
     class Foo(object):
         @kwargs_only
         def bar(self, x, y):
@@ -38,7 +35,6 @@ def test_kwargs_only_method_allows_keyword_args():
 
 
 def test_kwargs_only_method_does_not_allow_positional_args():
-
     class Foo(object):
         @kwargs_only
         def bar(self, x):
@@ -50,9 +46,7 @@ def test_kwargs_only_method_does_not_allow_positional_args():
 
 
 def test_kwargs_only_classmethod_allows_keyword_args():
-
     class Foo(object):
-
         @classmethod
         @kwargs_only
         def bar(cls, x, y):
@@ -62,9 +56,7 @@ def test_kwargs_only_classmethod_allows_keyword_args():
 
 
 def test_kwargs_only_classmethod_does_not_allow_positional_args():
-
     class Foo(object):
-
         @classmethod
         @kwargs_only
         def bar(self, x):
