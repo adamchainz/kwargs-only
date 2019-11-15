@@ -6,6 +6,8 @@ Pending Release
 
 .. Insert new release notes below this line
 
+* Support Python 3.8.
+
 1.0.2 (2019-10-28)
 ------------------
 

@@ -42,7 +42,7 @@ Use **pip**:
 
     pip install kwargs-only
 
-Python 2.7 and 3.4-3.7 supported.
+Python 2.7 and 3.4-3.8 supported.
 
 Usage
 =====
