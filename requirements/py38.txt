@@ -244,7 +244,7 @@ requests-toolbelt==0.9.1 \
 requests==2.22.0 \
     --hash=sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4 \
     --hash=sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31
-secretstorage==3.1.1 \
+secretstorage==3.1.1 ; python_version == "3.8.*" \
     --hash=sha256:20c797ae48a4419f66f8d28fc221623f11fc45b6828f96bdb1ad9990acb59f92 \
     --hash=sha256:7a119fb52a88e398dbb22a4b3eb39b779bfbace7e4153b7bc6e5954d86282a8a
 six==1.13.0 \

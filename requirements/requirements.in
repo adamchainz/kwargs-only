@@ -12,5 +12,5 @@ pytest-cov
 pytest-randomly
 requests
 requests-mock
-secretstorage # required for twine on linux
+secretstorage ; python_version == '3.8.*' # required for twine on linux
 twine
