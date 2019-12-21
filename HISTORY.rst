@@ -1,6 +1,10 @@
 History
 =======
 
+* Update PyPI development status as inactive. This package is no longer
+  maintained since I have copied it into my mone Python 2 compatible project.
+  I recommend you do the same going forwards - and get off Python 2!
+
 1.1.0 (2019-11-15)
 ------------------
 

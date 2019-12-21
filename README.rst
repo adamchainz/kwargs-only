@@ -11,6 +11,14 @@ kwargs-only
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/python/black
 
+----
+
+**Unmaintained:** I'm no longer maintaining this package because it's for
+Python 2 compatibility and all other projects I've used it on are now Python 3
+only. If you want to continue maintenance please contact me.
+
+----
+
 A decorator to make a function accept keyword arguments only, on both Python 2
 and 3.
 
